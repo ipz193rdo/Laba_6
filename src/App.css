@@ -1,0 +1,172 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.main_box{
+  height: auto;
+  width: 900px;
+  background-color: gray;
+  padding: 30px 40px 0 40px;
+}
+hr {
+  margin: 15px 0 12px 0;
+  border: 0;
+  border-bottom: 1px dashed #d7d8d8;
+}
+select{
+  width: 130px;
+  margin-right: 10px;
+}
+.select_box{
+  display: flex;
+}
+.form_wrap {
+  /* width: 180px; */
+  width: 270px;
+  /* float: left; */
+  font-size: 17px;
+  line-height: 25px;
+  color: #323232;
+}
+.about_label{
+  width: 100%;
+}
+.label_description{
+  position: absolute;
+    margin-top: -20px;
+    font-size: 11px;
+    
+}
+/* .place-row {
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+.place-row label {
+  height: 20px;
+  padding-bottom: 4px;
+}
+.place-count{
+  float: left;
+  width: 64px;
+}
+.place-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 11px;
+  
+}
+input.short{
+  width: 40px;
+}
+.place-weight{
+  float: left;
+    width: 82px;
+    padding-right: 8px;
+}
+.place-dimension {
+  float: left;
+  width: 70px;
+}
+
+
+.units{
+    font-size: 15px;
+    line-height: 21px;
+    vertical-align: top;
+    font-weight: normal;
+    color: #bebebe;
+}
+.place-add    {
+position: absolute;
+}
+.place-add a   {
+  color: #000;
+  font-size: 12px;
+} */
+.inline{
+  display: flex;
+}
+.grey{
+  color: #bebebe;
+}
+.place-row{
+  display: flex;
+}
+.place-row input {
+  width: 100px;
+}
+
+.place-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 13px;
+  
+}
+.place-count, .place-weight, .place-dimension{
+  margin-right: 13px;
+}
+.packaging_div{
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  align-items: center;
+  /* width: 100px;
+  height: 50px; */
+  /* background-color: #d7d8d8; */
+}
+
+.packaging_div input{
+  width: 20px;
+  height: 20px;
+}
+.packaging_div button {
+  padding: 10px;
+  border-radius: 7px;
+  margin-left: 40px;
+}
+.num{
+  min-width: 70px;
+  min-height: 30px;
+  margin-right: 10px;
+
+}
+.packaging_div span {
+  margin-right: 10px;
+}
+
+.remove{
+  max-height: 20px;
+  /* max-width: 30px; */
+}
+
+.check_select{
+    margin-top: -13px;
+}
+
+.submit_div{
+  position:relative;
+  left: -40px;
+  background-color: brown;
+  height: 40px;
+  width: 900px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.submit_div a{
+  text-decoration: underline;
+  color: white;
+}
+.submit_div button{
+  padding: 7px;
+  border-radius: 5px;
+}
